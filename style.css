@@ -1,0 +1,62 @@
+body {
+  padding: 20px;
+}
+
+/* 
+form
+*/
+.form {
+    border: 2px solid #000;
+    padding: 20px;
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+.form-list {
+  display: flex;
+  margin-bottom: 0 0 10px;
+}
+.form-list-title {
+  width: 30%;
+}
+.form-list-data {
+  width: 70%;
+}
+.form-button {
+  text-align: center;
+}
+
+/*
+label
+*/
+.label {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* 
+input
+*/
+.input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #000;
+}
+
+/* 
+button
+*/
+.button {
+  border: 0;
+  font-size: 18px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  transition: opacity 0.25s;
+}
+.button:hover {
+  opacity: 0.8;
+}
