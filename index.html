@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+
+    <form class="form" action="">
+      <dl class="form-list">
+        <dt class="form-list-title">
+          <label class="label" for="name">Name:</label>
+        </dt>
+        <dd class="form-list-data">
+          <input class="input" type="text" id="name" name="name">
+        </dd>
+      </dl>
+
+      <dl class="form-list">
+        <dt class="form-list-title">
+          <label class="label" for="work">Work:</label>
+        </dt>
+        <dd class="form-list-data">
+          <input class="input" type="text" id="work" name="work">
+        </dd>
+      </dl>
+
+      <dl class="form-list">
+        <dt class="form-list-title">
+          <label class="label" for="comment">Comment:</label>
+        </dt>
+        <dd class="form-list-data">
+          <textarea class="input" id="comment" name="comment" rows="4" cols="50"></textarea>
+        </dd>
+      </dl>
+      
+      <div class="form-button">
+        <button class="button" type="submit">Submit</button>
+      </div>
+    </form>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
