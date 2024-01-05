@@ -15,30 +15,25 @@ form
 }
 .form-list {
   display: flex;
-  margin-bottom: 0 0 10px;
+  margin-bottom: 10px;
 }
-.form-list-title {
+.form-title {
+  font-weight: bold;
+  cursor: pointer;
   width: 30%;
 }
-.form-list-data {
+.form-field {
   width: 70%;
 }
 .form-button {
   text-align: center;
 }
 
-/*
-label
-*/
-.label {
-  font-weight: bold;
-  cursor: pointer;
-}
 
 /* 
-input
+input, textarea
 */
-.input {
+.input-field {
   width: 100%;
   padding: 10px;
   border: 1px solid #000;
