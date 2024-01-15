@@ -1,6 +1,6 @@
 body {
+  font-family: "Noto Sans JP", Helvetica, arial, sans-serif;
   padding: 20px;
-  font-family: 'Noto Sans JP', sans-serif;
 }
 
 /* 
@@ -88,7 +88,7 @@ table
   width: 55%;
 }
 .table-body td {
-  text-align-last: left;
+  text-align: left;
   border: 1px solid #000;
   padding: 10px;
 }
