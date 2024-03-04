@@ -16,3 +16,7 @@ Node.jsおよびnpmをPCにインストールします。（インストール�
 ## 4.環境変数の設定
 本書のChapter 7に従い、`main.js`内のオブジェクト`firebaseConfig`のダミーの値をFirebaseで取得した各種値に置き換えます。  
 ※セキュリティの観点から、環境変数は自身のPCのみに止め、公開しないでください。
+
+# ダウンロード
+下記の図のようにボタンを押すとのコード一式がまるっとダウンロードできます。
+<img width="950" alt="Screen_Shot_2024-03-05_at_2_57_50" src="https://github.com/seito-developer/daily-report-2/assets/59995348/80541760-bb3e-4521-9372-c72475227f04">
